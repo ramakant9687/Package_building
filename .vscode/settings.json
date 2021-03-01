@@ -1,0 +1,23 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E401,E402,F401,F811",
+        "--max-line-length=108"
+    ],
+    "editor.formatOnSave": true,
+    "python.sortImports.args": [
+        "-rc",
+        "-sp isort.cfg"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=79"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.pythonPath": "C:\\Users\\ramakant.yadav\\Anaconda3\\python.exe"
+}
